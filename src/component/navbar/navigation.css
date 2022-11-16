@@ -1,0 +1,15 @@
+.nav {
+  background-color: #202a44;
+  font-family: Poppins;
+}
+
+#nav-dropdown {
+  color: wheat;
+  font-weight: lighter;
+  background-color: #202a44;
+}
+
+.nav-link {
+  padding-left: 10px;
+  color: wheat;
+}

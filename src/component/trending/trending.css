@@ -1,0 +1,62 @@
+div {
+  background-color: #202a44;
+}
+
+.testslider-card {
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex: auto;
+  background-color: #202a44;
+  background-size: auto;
+}
+
+.padding-card {
+  background-color: #202a44;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+h1 {
+  color: wheat;
+}
+
+h4 {
+  color: wheat;
+  font-family: Poppins;
+}
+
+.trending {
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex: auto;
+  background-color: #202a44;
+  background-size: auto;
+}
+
+.movieWrapper {
+  color: wheat;
+}
+
+.movieImage {
+  height: 400;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images {
+  height: 400px;
+}
+
+.card-layout {
+  height: 700;
+}

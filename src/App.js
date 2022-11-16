@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import IntroPage from "./component/intro/IntroPage";
+import NavigationBar from "./component/navbar/NavigationBar";
+import TrendingTv from "./component/trending/TrendingTv";
+import TrendingTheater from "./component/trending/TrendingTheater";
+
+import PopularTv from "./component/popular/PopularTv";
+import PopularTheater from "./component/popular/PopularTheater";
+import Footer from "./component/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavigationBar />
+      <IntroPage />
+      <PopularTv />
+      <PopularTheater />
+      <TrendingTv />
+      <TrendingTheater />
+      <Footer />
     </div>
   );
 }
