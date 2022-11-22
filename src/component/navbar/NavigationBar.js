@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, NavLink } from "react-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./navigation.css";
 
@@ -8,9 +8,12 @@ const NavigationBar = () => {
       <Navbar className="nav">
         <Container>
           <Navbar.Brand href="/" id="nav-dropdown">
-            ABC Movea
+            Movea
           </Navbar.Brand>
           <Nav className="text-light">
+            <NavLink type="link" href="/search" id="nav-dropdown">
+              Search
+            </NavLink>
             <NavDropdown title={"Popular"} id="nav-dropdown">
               <NavDropdown.Item href="#popularTv">On TV</NavDropdown.Item>
               <NavDropdown.Item href="#popularTheater">

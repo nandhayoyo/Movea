@@ -9,6 +9,12 @@ const IntroPage = () => {
     titleOne: "What movie do u want..",
     image: ImageHero,
   });
+
+  // // const location = useLocation();
+
+  // // const getNavLinkClass = (path) => {
+  // //   return location.pathname === path ? " active" : "";
+  // };
   return (
     <section className="container">
       <div className="home">
@@ -27,6 +33,11 @@ const IntroPage = () => {
                 }}
               />
             </div>
+            {/* <div className={`nav-item${getNavLinkClass("/search")}`}>
+              <Button className="button" type="link" href="/search">
+                Find More Movies
+              </Button>
+            </div> */}
           </div>
         </div>
         <div className="home-image ">

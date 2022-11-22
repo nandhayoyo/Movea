@@ -1,24 +1,18 @@
 import "./App.css";
+import Search from "./component/search/Search";
+import LandingPages from "./component/landingPages/index";
 
-import IntroPage from "./component/intro/IntroPage";
-import NavigationBar from "./component/navbar/NavigationBar";
-import TrendingTv from "./component/trending/TrendingTv";
-import TrendingTheater from "./component/trending/TrendingTheater";
-
-import PopularTv from "./component/popular/PopularTv";
-import PopularTheater from "./component/popular/PopularTheater";
-import Footer from "./component/footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <NavigationBar />
-      <IntroPage />
-      <PopularTv />
-      <PopularTheater />
-      <TrendingTv />
-      <TrendingTheater />
-      <Footer />
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<LandingPages />}></Route>
+          <Route path="/search" element={<Search />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function App() {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
     axios
-      .get(`${process.env.REACT_APP_BASE_URL}/trending/tv/week`, {
+      .get(`${process.env.REACT_APP_BASE_URL}/trending/tv/week?page=1&`, {
         params: {
           api_key: process.env.REACT_APP_TMDB_KEY,
         },
