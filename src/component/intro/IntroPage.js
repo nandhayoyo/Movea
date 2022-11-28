@@ -10,11 +10,6 @@ const IntroPage = () => {
     image: ImageHero,
   });
 
-  // // const location = useLocation();
-
-  // // const getNavLinkClass = (path) => {
-  // //   return location.pathname === path ? " active" : "";
-  // };
   return (
     <section className="container">
       <div className="home">
@@ -40,7 +35,7 @@ const IntroPage = () => {
             </div> */}
           </div>
         </div>
-        <div className="home-image ">
+        <div className="home-image">
           <img
             className="img-image img-1"
             style={{ marginTop: 100 }}

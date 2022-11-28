@@ -2,6 +2,10 @@ div {
   background-color: #202a44;
 }
 
+.App {
+  text-align: center;
+}
+
 .testslider-card {
   align-items: center;
   justify-content: center;
@@ -23,7 +27,28 @@ div {
 .title {
   font-size: auto;
   font-weight: auto;
-  line-height: 1;
+  height: 1;
+}
+
+.titleMovie {
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-weight: lighter;
+  height: 60px;
+  padding: 10px;
+  background-color: #202a44;
+}
+
+.titleRating {
+  color: crimson;
+  align-items: center;
+  justify-content: center;
+  font-style: oblique;
+  font-weight: bolder;
+  height: 60px;
+  padding: 10px;
+  background-color: #202a44;
 }
 
 h1 {
@@ -61,4 +86,29 @@ h4 {
 
 .card-layout {
   height: 700;
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Movie-wrapper {
+  width: auto;
+  background-color: #202a44;
+  color: #202a44;
+}
+
+.Movie-search {
+  height: 20px;
+  width: auto;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
 }
