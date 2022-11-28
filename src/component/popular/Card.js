@@ -24,7 +24,7 @@ function BasicCard({ result }) {
         <Card.Body>
           <Card.Title className="text-white">{result.title}</Card.Title>
           <Card.Text className="text-left text-white">
-            Total Watch : {result.popularity}
+            Rating : {result.vote_average}
           </Card.Text>
         </Card.Body>
       </Card>
